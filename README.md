@@ -3,6 +3,7 @@ This solution includes a cloudformation template and a python script. This docum
 
 # Architecture
 
+![274445823-70dcb257-2956-4317-9a83-4080dab0061e](https://github.com/aws-samples/amazon-neptune-global-database-endpoint-automation/assets/147440980/3d2d8c86-2cba-43b0-8bd3-eac2f3c8f3fa)
 
 
 # Requirements
@@ -14,7 +15,7 @@ Git command line tools installed
 # Set up
 Follow the instructions below in order to deploy from this repository:
 1. Clone the repo onto your local development machine:
-   git clone https://github.com/justinaws/amazon-neptune-global-database-endpoint-automation.git
+   git clone https://github.com/aws-samples/amazon-neptune-global-database-endpoint-automation.git
 2. In the root directory, from the command line, run following command. Please make sure you pass all regions where your global database clusters are deployed. This command will execute the cloudformation template and create all required resources in all passed regions.
    ```
    usage:
